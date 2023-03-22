@@ -27,6 +27,7 @@ for (let position = 1; position <= amount; position += 1){
         reject({ position, delay });
       
     }, time);
+    
   });
   
   promise
