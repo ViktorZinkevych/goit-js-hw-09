@@ -19,7 +19,7 @@ for (let position = 1; position <= amount; position += 1){
     const shouldResolve = Math.random() > 0.3;
    
     setTimeout(() => {
-      
+      delay += stepDelay;
       
       if(shouldResolve) {
         resolve({ position, delay })
